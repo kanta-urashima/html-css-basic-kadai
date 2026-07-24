@@ -1,6 +1,8 @@
+html {
+  font-size: 20px;
+}
 body {
   font-family: "Arial", "Meiryo", sans-serif;
-  font-size: 20px;
   text-align: center;
 }
 .blue {
@@ -10,13 +12,15 @@ body {
   color: rgb(255, 192, 203);
 }
 h1 {
-  font-family: "M PLUS U", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
-  text-align: center;
+  font-size: 2rem;
   letter-spacing: 1.2em;
-  text-shadow: 1.5px 1.5px 3px #888888;
-  border-bottom: 3px solid rgb(155, 155, 114);
+  text-shadow: #ffcc00 1px 0 10px;
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
+#basic p {
+  font-weight: bold;
 }
